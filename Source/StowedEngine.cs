@@ -33,7 +33,7 @@ public class StowedEngine : PartModule
         if (base.part.ShieldedFromAirstream)
         {
             base.part.ShieldedFromAirstream = false;
-            Debug.Log("[StowedEngine] Transformed Engine \"" + base.part.name + "\" of vessel \"" + base.vessel.vesselName + "\" into a StowedEngine");
+            Debug.Log("[StowedEngine] Un-Stowed Engine \"" + base.part.name + "\" of vessel \"" + base.vessel.vesselName + "\"");
         }
     }
 }
