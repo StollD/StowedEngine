@@ -10,3 +10,8 @@ Features
 --------
 This little PartModule allows the activation of engines, while they are occluded by fairings.
 With this you can add an engine to a fairing base.
+
+How to use it
+-------------
+To use the PartModule, simply add the following line to your config:
+`MODULE { name = StowedEngine }`
